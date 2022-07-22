@@ -8,8 +8,8 @@
 
 ## Deploy
 
-* Deploy Back (heroku) ☞ <a href="https://pokemons-2022.herokuapp.com"/>pokemons app back</a> Get more info <a href="https://github.com/zayrarepositor/pokemons-app-back-2022">here</a>
-* Deploy Front (vercel) ☞ <a href="https://pokemons-app-2022.vercel.app/">pokemons app</a>
+* Deploy Back (heroku) ☞ <a href="https://pokemons-2022.herokuapp.com"/>pokemons app back</a>. Get more info about project backend <a href="https://github.com/zayrarepositor/pokemons-app-back-2022">here</a>
+* Deploy Front (vercel) ☞ <a href="https://pokemons-app-2022.vercel.app/">pokemons app front</a>
 
 ## About
 
@@ -37,7 +37,6 @@ mail ☞ <a href="mailto:zayra.contacto@gmail.com">zayra.contacto(gmail)</a>
 
 ## Snips
 
-☢ You could check out some snips here:
 ![1](https://user-images.githubusercontent.com/95602965/180385721-e70a26d6-1da9-4fee-80d7-f8dfacf7803d.png)
 ![2](https://user-images.githubusercontent.com/95602965/180385696-9b493a51-a065-490d-8e7a-77a54cfabbe5.png)
 ![3](https://user-images.githubusercontent.com/95602965/180385702-e4dd6ad8-deab-4fa0-980f-cbfca12c73a9.png)
