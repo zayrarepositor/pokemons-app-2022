@@ -1,0 +1,66 @@
+.card {
+  width: 100%;
+  background-color: var(--light-trans-color);
+  padding: 2em;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 10px 10px -5px var(--middle-trans-color);
+}
+
+.cardimg {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 2px solid var(--main-color);
+}
+
+.cardname {
+  color: var(--dark-trans-color);
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.cardtype {
+  color: darken var(--main-color);
+  font-size: 0.8rem;
+  margin: 3px 0 3px;
+}
+
+.cardhp {
+  margin: 18px 0 0 0;
+}
+
+.cardp,
+.cardhp {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
+
+.cardbuttondiv {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.cardbutton {
+  box-shadow: 2px 1px 2px var(--middle-trans-color);
+  margin: 0 auto;
+  cursor: pointer;
+  background-color: var(--main-color);
+  font-weight: bold;
+  color: var(--middle-solid-color);
+  width: 40%;
+  border-radius: 10%;
+  padding: 2% 0;
+  margin-top: 5%;
+}
+
+.cardbutton:hover {
+  background-color: var(--middle-trans-color);
+  color: var(--light-solid-color);
+}

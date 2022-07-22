@@ -1,0 +1,100 @@
+:root {
+  --light-trans-color: #fdfdfdbc;
+  --light-solid-color: #fdfdfd;
+  --main-color: #dedede;
+  --middle-trans-color: rgba(68, 68, 68, 0.823);
+  --middle-solid-color: #444;
+  --dark-color: rgb(34, 33, 33);
+  --border-width: .24vw;
+  --gutter: 2vw;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+a:visited,
+a:focus,
+a:active,
+a:link {
+  text-decoration: none;
+  outline: 0;
+}
+
+a {
+  color: var(--middle-solid-color);
+  transition: .2s ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0 0 1vw;
+  font-weight: 700;
+}
+
+.aboutcontainer {
+  background: var(--main-color);
+}
+
+.aboutsection {
+  margin: 9rem auto 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.aboutcard {
+  width: 50%;
+  max-width: 600px;
+  background-color: var(--middle-trans-color);
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.about-h1box {
+  text-transform: uppercase;
+  color: var(--light-solid-color);
+  padding-bottom: 0.2rem;
+  font-weight: bold;
+  text-shadow: 4px 4px 4px var(--middle-trans-color);
+  font-size: 1.3rem;
+}
+
+.about-h2box {
+  text-transform: uppercase;
+  color: var(--light-trans-color);
+  padding: 0.8rem;
+  padding-bottom: 0.2rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px var(--dark-color);
+  font-size: 1rem;
+}
+
+.about-text {
+  color: var(--dark-color);
+  font-size: 1.2rem;
+}
+
+.about-text span {
+  color: var(--light-trans-color);
+  font-weight: bold;
+}
+
+.about-links {
+  color: var(--dark-color);
+}
+
+.about-links:hover {
+  color: var(--middle-solid-color);
+}
+
+@media (max-width: 800px) {
+  .aboutcard {
+    width: 90%;
+  }
+}

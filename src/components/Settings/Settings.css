@@ -1,0 +1,151 @@
+:root {
+  --light-trans-color: #fdfdfdbc;
+  --light-solid-color: #fdfdfd;
+  --main-color: #dedede;
+  --middle-trans-color: rgba(68, 68, 68, 0.823);
+  --middle-solid-color: #444;
+  --dark-color: rgb(34, 33, 33);
+  --border-width: .24vw;
+  --gutter: 2vw;
+}
+
+.settingsimg {
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+}
+
+.settingsdiv1 {
+  display: grid;
+  grid-template-columns: 28% 1fr;
+  align-items: center;
+  text-align: right;
+  margin-top: 1.5em;
+}
+
+.settingstitle {
+  font-size: 2.1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 7px;
+}
+
+.settingsdiv {
+  display: grid;
+  grid-template-columns: 1fr 2fr 4fr;
+  grid-template-rows: auto;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 1em 0 1em 0;
+  align-items: center;
+  justify-items: center;
+  transition: 0.2s;
+  grid-template-areas:
+    "icon label input"
+    ". . button";
+}
+
+.settingsicon {
+  grid-area: icon;
+}
+
+.settingslabel {
+  grid-area: label;
+}
+
+.settingsinput {
+  grid-area: input;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 1%;
+  border-bottom-color: var(--light-trans-color);
+}
+
+.settingserrormsg {
+  grid-area: label;
+  grid-row: 2;
+  color: var(--light-trans-color);
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: light;
+  letter-spacing: 0.5px;
+  margin-top: 0.5em;
+}
+
+.settingssearchbuttondiv {
+  grid-area: button;
+}
+
+.settingssearchbuttondiv,
+.settingscreatebuttondiv {
+  text-align: center;
+}
+
+.settingssearchbutton,
+.settingscreatebutton {
+  box-shadow: 2px 1px 2px var(--middle-trans-color);
+  cursor: pointer;
+  background-color: var(--main-color);
+  font-weight: bold;
+  color: var(--middle-solid-color);
+}
+
+.settingssearchbutton {
+  width: 110%;
+  border-radius: 12%;
+  padding: 8% 0;
+  margin-right: 1em;
+}
+
+.settingscreatebutton {
+  width: 45%;
+  border-radius: 10%;
+  padding: 2% 0;
+  margin: 1em auto;
+}
+
+.settingssearchbutton:hover,
+.settingscreatebutton:hover {
+  background-color: var(--middle-trans-color);
+  color: var(--light-solid-color);
+}
+
+hr {
+  color: var(--main-color);
+}
+
+@media (max-width: 880px) {
+
+  .settingsdiv1 {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 0;
+  }
+
+  .settingsdiv2 {
+    padding: 0;
+  }
+
+  .settingsdiv {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  svg {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 680px) {
+  .settingsdiv1 {
+    display: none;
+  }
+
+  svg {
+    width: 24px;
+    height: 24px;
+  }
+}

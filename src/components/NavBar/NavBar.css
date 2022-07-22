@@ -1,0 +1,57 @@
+:root {
+  --light-trans-color:#fdfdfdbc;
+  --light-solid-color:#fdfdfd;
+  --main-color: #dedede;
+  --middle-trans-color: rgba(68, 68, 68, 0.823);
+  --middle-solid-color: #444;
+  --dark-color:rgb(34, 33, 33);
+  --border-width: .24vw;
+  --gutter: 2vw;
+}
+
+.navheader {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 1px 0 var(--light-trans-color); 
+  background-color: rgba(68, 68, 68, 0.413);
+  height: 9rem;
+  font-size: 2rem;
+  text-shadow: 5px 1px 5px var(--middle-trans-color);display: grid;
+  grid-template-columns: 80% 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 0.3em 3em 0 3em;
+  grid-template-areas: 
+  "h4 . "
+  "about home" ;
+}
+
+.divabout{
+  grid-area:about;
+}
+
+.divhome{
+  grid-area: home;
+  text-align: right;
+}
+
+.navh4 {
+  grid-area:h4;
+  color:var(--light-solid-color);
+  font-weight:bold;  
+}
+
+.pabout,
+.phome {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight:lighter;  
+  cursor: pointer;
+  color: var(--dark-solid-color);
+}
+
+.phome:hover,
+.pabout:hover {
+  color: var(--light-solid-color);
+}
+  

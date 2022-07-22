@@ -1,0 +1,17 @@
+export const GET_POKEMONS = "GET_POKEMONS";
+export const GET_API_POKEMONS = "GET_API_POKEMONS";
+export const GET_TYPES = "GET_TYPES";
+export const GET_BY_NAME = "GET_BY_NAME";
+
+export const FILTER_BY_CREATOR = "FILTER_BY_CREATOR";
+export const FILTER_BY_TYPE = "FILTER_BY_TYPE";
+export const SORT_BY_ATTACK = "SORT_BY_ATTACK";
+export const SORT_BY_NAME = "SORT_BY_NAME";
+
+export const CREATE_POKEMON = "CREATE_POKEMON";
+export const DELETE_POKEMON = "DELETE_POKEMON";
+export const UPDATE_POKEMON = "UPDATE_POKEMON";
+
+export const CLEAR_DETAIL = "CLEAR_DETAIL";
+export const CLEAR_MESSAGE = "CLEAR_MESSAGE";
+

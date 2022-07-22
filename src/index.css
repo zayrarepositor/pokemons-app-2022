@@ -1,0 +1,31 @@
+html, body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* html{
+    box-sizing: 
+    debe calcular el ancho y alto total de un elemento.
+    
+    border-box; incluye el contenido, relleno y borde pero no el margen
+}
+ */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+*,
+*:after,
+*::before{
+  box-sizing: inherit;
+}
