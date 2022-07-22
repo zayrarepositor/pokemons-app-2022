@@ -8,7 +8,7 @@
 
 ## Deploy
 
-* Deploy Back (heroku) ☞ <a href="https://pokemons-2022.herokuapp.com/>pokemons app back</a> Get more info <a href="https://github.com/zayrarepositor/pokemons-app-back-2022">here</a>
+* Deploy Back (heroku) ☞ <a href="https://pokemons-2022.herokuapp.com"/>pokemons app back</a> Get more info <a href="https://github.com/zayrarepositor/pokemons-app-back-2022">here</a>
 * Deploy Front (vercel) ☞ <a href="https://pokemons-app-2022.vercel.app/">pokemons app</a>
 
 ## About
