@@ -23,8 +23,8 @@ export default function About() {
                 <span>❤</span> Hey there!{" "}
               </p>
               <p>
-                I am Zayra Velasco, soft developer/administrative manager, and
-                this is a personal project -in progress- with:
+                I am Zayra Velasco, soft developer/admin manager, and this a
+                personal project -in progress- with:
               </p>
               <p>
                 <span> Node, Express & Sequelize</span> +{" "}
@@ -36,18 +36,18 @@ export default function About() {
             </div>
             {/* GITHUB REPOSITORY */}
             <div className="about-h2box">
-              <h2> ☑ Check out repository:</h2>
+              <h2> ☑ Check it out code:</h2>
             </div>
             <div className="about-text">
               <ul>
                 <li>
-                  GitHub <span>☞</span>{" "}
+                  Github <span>☞</span>{" "}
                   <a
                     className="about-links"
-                    href="https://github.com/zayrarepositor/pokemons-app-2022"
+                    href="https://github.com/zayrarepositor/PIpokemons"
                     target="_blank"
                     rel="noopener noreferrer">
-                    pokemons app
+                    PIpokemons
                   </a>
                 </li>
               </ul>
@@ -59,7 +59,7 @@ export default function About() {
             <div className="about-text">
               <ul>
                 <li>
-                  GitHub <span>☞</span>{" "}
+                  Github <span>☞</span>{" "}
                   <a
                     className="about-links"
                     href="https://github.com/zayrarepositor"

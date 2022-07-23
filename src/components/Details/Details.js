@@ -63,11 +63,6 @@ export default function Details({ setPokemonDeleted }) {
   }
   function handleEdit() {
     setEdit(true);
-    Swal.fire(
-      "Edit functionality no ready!",
-      `be patient, it will be coming soon `,
-      "info"
-    );
   }
 
   if (pokemonDetail.length > 0 && loader) {
@@ -121,6 +116,9 @@ export default function Details({ setPokemonDeleted }) {
                       <button className="detailsbutton" onClick={handleEdit}>
                         EDIT
                       </button>
+                      {/* <small>
+                        be patient, edit funcionality is coming soon
+                      </small> */}
                     </div>
                   </div>
                 </div>
