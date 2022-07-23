@@ -47,7 +47,7 @@ export default function About() {
                     href="https://github.com/zayrarepositor/pokemons-app-2022"
                     target="_blank"
                     rel="noopener noreferrer">
-                    Pokemons
+                    Pokemons App
                   </a>
                 </li>
               </ul>
