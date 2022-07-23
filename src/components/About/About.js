@@ -23,7 +23,7 @@ export default function About() {
                 <span>❤</span> Hey there!{" "}
               </p>
               <p>
-                I am Zayra Velasco, soft developer/admin manager, and this a
+                I am Zayra Velasco, soft developer/admin manager, and this is a
                 personal project -in progress- with:
               </p>
               <p>
@@ -44,10 +44,10 @@ export default function About() {
                   Github <span>☞</span>{" "}
                   <a
                     className="about-links"
-                    href="https://github.com/zayrarepositor/PIpokemons"
+                    href="https://github.com/zayrarepositor/pokemons-app-2022"
                     target="_blank"
                     rel="noopener noreferrer">
-                    PIpokemons
+                    Pokemons
                   </a>
                 </li>
               </ul>
