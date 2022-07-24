@@ -23,7 +23,7 @@
 
 ## Video
 
-☢ You could check out a video demo here ☞ coming soon
+☢ You could check out a video demo here ☞ <a href="https://youtu.be/nKPjLJp2ilI">pokemons app youtube</a>
 
 ## Next
 
