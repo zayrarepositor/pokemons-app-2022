@@ -4,12 +4,7 @@
 
 ## pokemons-app-2022
 
-❤ It is a project, in progress, created as one of the Henry Bootcamp challenges. It was one of my best experiences this year. I learned tech bases as dev.
-
-## Deploy
-
-* Deploy Back (heroku) ☞ <a href="https://pokemons-2022.herokuapp.com"/>pokemons app back</a>. Get more info about project backend <a href="https://github.com/zayrarepositor/pokemons-app-back-2022">here</a>
-* Deploy Front (vercel) ☞ <a href="https://pokemons-app-2022.vercel.app/">pokemons app front</a>
+❤ It is my first project, created as one of the Henry Bootcamp challenges. It was one of my best experiences this year. I learned tech bases as dev.
 
 ## About
 
@@ -24,10 +19,6 @@
 ## Video
 
 ☢ You could check out a video demo here ☞ <a href="https://youtu.be/nKPjLJp2ilI">pokemons app youtube</a>
-
-## Next
-
-✎ Next update: edit pokemons from database.
 
 ## Contact
 
